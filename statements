@@ -1,0 +1,68 @@
+Problem 1: Alien Game
+ 
+Aliens on the Unknown planet have a tradition of playing a game called Loiten. It is played by two players who alternate turns. There are N buckets with apples standing in one line in front of the players. They are numbered from left to right with integers starting from 1.
+ 
+In one turn a player can select one of the buckets, which is not the first and not the last and has a positive number of apples in it, and move all of that bucket's apples to the bucket adjacent to the left and at the same time move all of them to the bucket adjacent to the right. That's right, the number of apples can be negative as it is a really strange planet. Thus, if there are 3 consecutive buckets with the number of apples being x, y, z, then you can perform the move if y is greater than zero. The resulting capacity of the buckets will be as follows: x+y, -y, z+y. The first player who can't make a move loses.
+ 
+You happen to know one of the aliens from the Unknown planet, named Popo. He is a very good Loiten player, and has reached the Loiten Finals. On the day prior to the game, he found out the number of apples in each of the buckets. Unfortunately, his memory is not that good, and he can't remember the number of apples in the P-th bucket. He just remembers that it is a number with absolute value not greater than F.
+ 
+Now, he is asking you to help him to calculate his chances. The players at the Finals are so good that they only make optimal moves to maximize their chance of winning. If neither player can win, the game is considered a draw. You are to find the number of possible apple counts for the bucket with an unknown number of apples where Popo will win. Popo is also sure that he is the one to make the first turn.
+ 
+Input
+The first line of the input file consists of a single number T, the number of test cases. Each test case begins with a line containing two integers N, the number of buckets and P, the number of the bucket with the unknown amount of apples. It is followed by a line containing N integers, the numbers of apples in the corresponding buckets. The Pth number on this line is the positive integer F and corresponds to the constraint on the number of apples in the P-th bucket.
+ 
+Output
+Output T lines, with the answer to each test case on a single line, the number of possible values for unknown bucket.
+ 
+Constraints
+T = 50
+1≤ P ≤ N ≤ 2,000.
+1≤ F ≤ 1,000,000,000,000.
+The number of apples in each bucket at the start of the game has an absolute value not greater than 1,000,000,000,000.
+ 
+Problem 2: Safest Place
+ 
+While en route to the 295th annual Galactic Dance Party on Risa, you find yourself unceremoniously yanked out of hyperspace and, according to your sensors, surrounded by N space bombs.  Apparently caught in a trap laid out by some dastardly and unknown enemy, and unable to return to hyperspace, you must find the safest place in the vicinity to weather the detonation of all the space bombs.  Your unseen opponent has constructed a cube-shaped space anomaly that you are unable to leave, so your options are limited to points within that cube.
+ 
+Before the bombs explode (all simultaneously), you have just enough time to travel to any integer point in the cube [0, 0, 0]-[1000, 1000, 1000], both inclusive.  You must find the point with the maximum distance to the nearest bomb, which your captain's intuition tells you will be the safest point.
+ 
+Input
+The first line of the input file consists of a single number T, the number of test cases. Each test consists of single number N, the number of bombs, followed by 3*N integers describing the positions of the bombs.
+ 
+Output
+Output T integers, one per test case each on its own line, representing the square of distance to the nearest bomb from the safest point in the cube.
+ 
+Constraints
+T = 50
+1 <= N <= 200
+All bombs coordinates will be in [0, 1000], both inclusive.
+ 
+Problem 3: Party Time
+ 
+You're throwing a party for your friends, but since your friends may not all know each other, you're afraid a few of them may not enjoy your party. So to avoid this situation, you decide that you'll also invite some friends of your friends. But who should you invite to throw a great party?
+ 
+Luckily, you are in possession of data about all the friendships of your friends and their friends. In graph theory terminology, you have a subset G of the social graph, whose vertices correspond to your friends and their friends (excluding yourself), and edges in this graph denote mutual friendships.  Furthermore, you have managed to obtain exact estimates of how much food each person in G will consume during the party if he were to be invited.
+ 
+You want to choose a set of guests from G. This set of guests should include all your friends, and the subgraph of G formed by the guests must be connected. You believe that this will ensure that all of your friends will enjoy your party since any two of them will have something to talk about...
+ 
+In order to save money, you want to pick the set of guests so that the total amount of food needed is as small as possible. If there are several ways of doing this, you prefer one with the fewest number of guests.
+ 
+The people/vertices in your subset G of the social graph are numbered from 0 to N - 1. Also, for convenience your friends are numbered from 0 to F - 1, where F is the number of your friends that you want to invite. You may also assume that G is connected. Note again that you are not yourself represented in G.
+ 
+Input
+ 
+The first line of the input consists of a single number T, the number of test cases. Each test case starts with a line containing three integers N, the number of nodes in G, F, the number of friends, and M, the number of edges in G. This is followed by M lines each containing two integers. The ith of these lines will contain two distinct integers u and v which indicates a mutual friendship between person u and person v. After this follows a single line containing N space-separated integers with theith representing the amount of food consumed by person i.
+ 
+Output
+Output T lines, with the answer to each test case on a single line by itself. Each line should contain two numbers, the first being the minimum total quantity of food consumed at a party satisfying the given criteria and the second the minimum number of people you can have at such a party.
+ 
+Constraints
+T = 50
+1 ≤ F ≤ 11
+F ≤ N-1
+2 ≤ N ≤ 250
+N-1 ≤ M ≤ N * (N - 1) / 2
+G is connected, and contains no self-loops or duplicate edges.
+For each person, the amount of food consumed is an integer between 0 and 1000, both inclusive.
+
+Source: http://www.facebook.com/notes/facebook-hacker-cup/facebook-hacker-cup-finals/208549245827651
