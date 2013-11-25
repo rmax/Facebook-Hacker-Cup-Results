@@ -1,3 +1,5 @@
+#include<algorithm>
+#include<cstring>
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -36,8 +38,8 @@ void add(int i, int j, double p, double p2){
 	f[i][j][k] += p2;
 }
 int main(){
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
+	//freopen("in.txt", "r", stdin);
+	//freopen("out.txt", "w", stdout);
 	int tt;
 	cin>>tt;
 	for (int t = 0; t < tt; ++t){

@@ -23,8 +23,8 @@ int comp(int u, int v)
 
 int main()
 {
-	freopen("b.in", "r", stdin);
-	freopen("b.out", "w", stdout);
+	//freopen("b.in", "r", stdin);
+	//freopen("b.out", "w", stdout);
 	
 	int test;
 	cin >> test;

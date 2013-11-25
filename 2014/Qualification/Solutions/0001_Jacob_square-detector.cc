@@ -84,9 +84,10 @@ bool Read(int &x)
 
 int main()
 {
-		if (DEBUG)
-			freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+		if (DEBUG) {
+			//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
+    }
 	int T,t,N;
 	int i,j,k;
 	int x1,x2,y1,y2;

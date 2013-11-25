@@ -72,8 +72,8 @@ void gao(vector<NODE> &v, int m, int p, vector<string> &ans){
 }
 NODE a[100];
 int main(){
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
+	//freopen("in.txt", "r", stdin);
+	//freopen("out.txt", "w", stdout);
 	int tt;
 	cin>>tt;
 	int n, m, p;

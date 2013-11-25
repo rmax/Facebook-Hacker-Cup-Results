@@ -86,8 +86,8 @@ int main()
 {
 	int n,t,m,p,i,j,k,ii=0;
 
-	freopen("1.in","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("1.in","r",stdin);
+	//freopen("out.txt","w",stdout);
 
 	cin>>t;
 

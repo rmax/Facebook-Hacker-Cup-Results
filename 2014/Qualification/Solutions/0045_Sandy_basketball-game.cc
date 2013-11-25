@@ -116,8 +116,8 @@ void updatePQ2field()
 
 int main()
 {
-	freopen("basketball_game.txt","r",stdin);
-	freopen("basketball_game_out.txt","w",stdout);
+	//freopen("basketball_game.txt","r",stdin);
+	//freopen("basketball_game_out.txt","w",stdout);
 	
 	scanf("%d",&t);
 	

@@ -65,8 +65,8 @@ void reset()
 
 int main()
 {
-	freopen("square_detector.txt","r",stdin);
-	freopen("square_detector_out.txt","w",stdout);
+	//freopen("square_detector.txt","r",stdin);
+	//freopen("square_detector_out.txt","w",stdout);
 	
 	scanf("%d",&t);
 	

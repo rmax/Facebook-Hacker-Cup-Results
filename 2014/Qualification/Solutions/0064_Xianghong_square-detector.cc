@@ -28,8 +28,8 @@ int main()
 {
 	int t,p;
 	int i,j,k;
-	freopen("square_detector.txt","r",stdin);
-	freopen("square_detector_out.txt","w",stdout);
+	//freopen("square_detector.txt","r",stdin);
+	//freopen("square_detector_out.txt","w",stdout);
 	scanf("%d",&t);
 	for (p=1;p<=t;p++)
 	{

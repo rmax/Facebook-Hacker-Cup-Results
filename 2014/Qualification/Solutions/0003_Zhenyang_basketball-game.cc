@@ -65,7 +65,7 @@ struct player
 int n,m,p;
 int main()
 {
-	freopen("C:\\competition\\fbhc\\b.out","w",stdout);
+	//freopen("C:\\competition\\fbhc\\b.out","w",stdout);
 	int i,j,k,cas,cc=0;
 	cin>>cas;
 	while (cas--)

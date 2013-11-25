@@ -4,8 +4,8 @@ int TC, T, n, i, a1, b1, a2, b2, j, C;
 char p[30][30];
 int main()
 {
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 	scanf("%d", &TC);
 	for(T=1;T<=TC;T++){
 		printf("Case #%d: ", T);

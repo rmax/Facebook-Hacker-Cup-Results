@@ -1,4 +1,6 @@
+#include<algorithm>
 #include<iostream>
+#include<cstring>
 #include<vector>
 #define N 110
 using namespace std;

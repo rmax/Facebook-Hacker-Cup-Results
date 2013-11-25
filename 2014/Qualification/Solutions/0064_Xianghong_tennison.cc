@@ -11,8 +11,8 @@ int main()
 	double s,r;
 	int pos,u,d;
 	double pu,pd;
-	freopen("tennison.txt","r",stdin);
-	freopen("tennison_out.txt","w",stdout);
+	//freopen("tennison.txt","r",stdin);
+	//freopen("tennison_out.txt","w",stdout);
 	scanf("%d",&t);
 	for (p=1;p<=t;p++)
 	{

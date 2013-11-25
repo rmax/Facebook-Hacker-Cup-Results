@@ -39,8 +39,8 @@ int main()
 	freopen("out.txt","w",stdout);
 	double beg=clock();
 #else
-	freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 #endif
 
 	int t;

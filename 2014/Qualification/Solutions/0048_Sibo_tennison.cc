@@ -13,8 +13,8 @@ long double f[2][maxk][maxp + 1];
 
 
 int main() {
-	freopen("tennison.txt", "r", stdin);
-	freopen("out2.txt", "w", stdout);
+	//freopen("tennison.txt", "r", stdin);
+	//freopen("out2.txt", "w", stdout);
 
 	int T;
 	cin >> T;

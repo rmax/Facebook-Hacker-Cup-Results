@@ -44,9 +44,9 @@ typedef vector<int> vi;
 char a[1000];
 int main(){
     #ifdef home
-    assert(freopen(problem_name".out","wt",stdout));
+    //assert(freopen(problem_name".out","wt",stdout));
     #endif
-    assert(freopen(problem_name".in","rt",stdin));
+    //assert(freopen(problem_name".in","rt",stdin));
     int T;
     scanf("%d", &T);
     for (int ti = 1; ti <= T; ti++) {

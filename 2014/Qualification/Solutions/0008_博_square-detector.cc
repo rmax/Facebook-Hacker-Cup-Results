@@ -13,8 +13,8 @@ using namespace std;
 
 char s[55][55];
 int main(){
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    //freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
     int CAS, n, X1, Y1, X2, Y2;
     scanf("%d", &CAS);
     for (int cas = 1; cas <= CAS; cas++){

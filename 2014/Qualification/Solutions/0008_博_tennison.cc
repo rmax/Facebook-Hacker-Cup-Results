@@ -18,8 +18,8 @@ double f[222][222][1005];
 int main(){
     int CAS, n;
     double ps, pr, pi, pu, pw, pd, pl;
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    //freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
     cin >> CAS;
     for (int cas = 1; cas <= CAS; cas++){
         cin >> n >> ps >> pr >> pi >> pu >> pw >> pd >> pl;

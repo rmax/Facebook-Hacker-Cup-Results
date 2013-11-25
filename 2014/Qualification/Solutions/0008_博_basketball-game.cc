@@ -27,8 +27,8 @@ bool cmp(Tnode a, Tnode b){
 
 int main(){
     int CAS, n, m, p;
-    freopen("in.txt", "r", stdin);
-    freopen("out.txt", "w", stdout);
+    //freopen("in.txt", "r", stdin);
+    //freopen("out.txt", "w", stdout);
     cin >> CAS;
     for (int cas = 1; cas <= CAS; cas++){
         cin >> n >> m >> p;

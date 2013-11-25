@@ -1,5 +1,6 @@
 #pragma warning(disable:4996)
 #include<stdio.h>
+#include<string.h>
 #include<algorithm>
 using namespace std;
 int N, M, P, TC, T, C[31];
@@ -32,8 +33,8 @@ void Do(int a){
 int main()
 {
 	int i, j, c;
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 	scanf("%d", &TC);
 	for (T = 1; T <= TC; T++){
 		printf("Case #%d: ", T);

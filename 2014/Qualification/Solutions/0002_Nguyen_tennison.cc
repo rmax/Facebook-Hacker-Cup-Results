@@ -12,8 +12,8 @@ int read()
 
 int main()
 {
-	freopen("c.in", "r", stdin);
-	freopen("c.out", "w", stdout);
+  //freopen("c.in", "r", stdin);
+  //freopen("c.out", "w", stdout);
 	
 	int test;
 	cin >> test;

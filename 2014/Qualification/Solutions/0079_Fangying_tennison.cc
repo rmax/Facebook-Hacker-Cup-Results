@@ -29,8 +29,8 @@ int main()
 
 	double ps,pr,pi,pu,pw,pd,pl;
 
-	freopen("1.in","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("1.in","r",stdin);
+	//freopen("out.txt","w",stdout);
 
 	cin>>t;
 

@@ -26,8 +26,8 @@ int main()
 	int t,ii=0;
 	int n,h1,h2,c1,c2;
 
-	freopen("square_detector.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("square_detector.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 
 	int i,j,k;
 

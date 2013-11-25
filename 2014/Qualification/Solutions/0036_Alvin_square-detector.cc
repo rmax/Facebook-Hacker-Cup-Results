@@ -25,8 +25,8 @@ int find(int l,int r,int L,int R){
 }
 
 int main(){
-	freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 	scanf("%d",&t);
 	for(int z=1;z<=t;z++){
 		scanf("%d",&n);

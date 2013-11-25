@@ -65,8 +65,8 @@ void update(vector<Basketball_Player> &player, int leave, int in) {
 }
 
 int main() {
-	freopen("basketball_game.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
+	//freopen("basketball_game.txt", "r", stdin);
+	//freopen("out.txt", "w", stdout);
 	
 	int T;
 	cin >> T;

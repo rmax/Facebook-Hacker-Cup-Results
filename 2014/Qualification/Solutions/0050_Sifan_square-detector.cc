@@ -15,7 +15,7 @@ void update_max(int& a, int b) {
 }
 
 int main() {
-	freopen("A.in", "r", stdin);
+	//freopen("A.in", "r", stdin);
 	int test;
 	scanf("%d", &test);
 	for (int t = 1; t <= test; ++ t) {

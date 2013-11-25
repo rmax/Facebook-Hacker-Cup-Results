@@ -22,7 +22,7 @@ typedef long long ll;
 int const N = 25;
 char mp[N][N];
 int main() {
-	freopen("A_ans.txt", "w", stdout);
+	//freopen("A_ans.txt", "w", stdout);
 	int T, n, ca = 1; scanf("%d", &T);
 	while (T--) {
 		scanf("%d", &n); rep(i, n) scanf(" %s", mp[i]);

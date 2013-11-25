@@ -68,7 +68,7 @@ void solve(std::vector<int>& team, std::vector<int>& remain) {
 }
 
 int main() {
-	freopen("B.in", "r", stdin);
+	//freopen("B.in", "r", stdin);
 	int test;
 	scanf("%d", &test);
 	for (int t = 1; t <= test; ++ t) {

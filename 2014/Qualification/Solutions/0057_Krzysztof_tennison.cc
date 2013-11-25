@@ -28,7 +28,7 @@ double solve(int k, int won, int lost, double p_s, double p_r, int p_i, int p_u,
 	if (lost >= k)
 		return 0.0;
 	double &ret = mem[won][lost][p_i];
-	if (!isnan(ret))
+	if (!std::isnan(ret))
 		return ret;
 	double p_sunny = p_i * 1e-3;
 	double p_win_set = p_sunny * p_s + (1.0 - p_sunny) * p_r;

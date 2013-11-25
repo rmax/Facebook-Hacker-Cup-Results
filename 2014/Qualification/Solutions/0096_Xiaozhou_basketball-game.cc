@@ -39,7 +39,7 @@ bool inlist[N];
 
 string ans[N]; int ant;
 int main() {
-	freopen("b_ans.txt", "w", stdout);
+	//freopen("b_ans.txt", "w", stdout);
 	int T, ca = 1; cin >> T;
 	while (T--) {
 		int n, m, t; cin >> n >> t >> m;

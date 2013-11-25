@@ -6,8 +6,8 @@
 using namespace std;
 
 int main() {
-    freopen("square_detector.in", "r", stdin);
-    freopen("square_detector.out", "w", stdout);
+    //freopen("square_detector.in", "r", stdin);
+    //freopen("square_detector.out", "w", stdout);
     int T;
     scanf("%d", &T);
     for (int test = 1; test <= T; test++) {

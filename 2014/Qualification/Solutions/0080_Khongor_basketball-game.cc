@@ -72,8 +72,8 @@ void solve() {
 }
 
 int main() {
-    freopen("basketball_game.in", "r", stdin);
-    freopen("basketball_game.out", "w", stdout);
+    //freopen("basketball_game.in", "r", stdin);
+    //freopen("basketball_game.out", "w", stdout);
     int T;
     scanf("%d", &T);
     for (int test = 1; test <= T; test++) {

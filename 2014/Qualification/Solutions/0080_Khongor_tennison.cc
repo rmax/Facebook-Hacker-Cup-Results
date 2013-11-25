@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <algorithm>
 #include <string>
+#include <cstring>
 #include <iostream>
 using namespace std;
 
@@ -39,8 +40,8 @@ void solve() {
 }
 
 int main() {
-    freopen("tennison.in", "r", stdin);
-    freopen("tennison.out", "w", stdout);
+    //freopen("tennison.in", "r", stdin);
+    //freopen("tennison.out", "w", stdout);
     int T;
     scanf("%d", &T);
     for (int test = 1; test <= T; test++) {

@@ -44,8 +44,8 @@ int main()
 	int t,p;
 	int n,m,r;
 	int i,j;
-	freopen("basketball_game.txt","r",stdin);
-	freopen("basketball_game_out.txt","w",stdout);
+	//freopen("basketball_game.txt","r",stdin);
+	//freopen("basketball_game_out.txt","w",stdout);
 	scanf("%d",&t);
 	for (p=1;p<=t;p++)
 	{

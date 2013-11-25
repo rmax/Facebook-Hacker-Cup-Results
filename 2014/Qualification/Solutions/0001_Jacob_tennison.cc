@@ -89,9 +89,10 @@ int vis[101][101][1001];
 
 int main()
 {
-		if (DEBUG)
-			freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+		if (DEBUG) {
+			//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
+    }
 	int T,t;
 	int i,j,p,p2;
 	LD ans,d,d2;
@@ -100,7 +101,7 @@ int main()
 		Fox1(t,T)
 		{
 			Read(K);
-			scanf("%Lf%lf%Lf%Lf%Lf%Lf%Lf",&Ps,&Pr,&Pi,&Pu,&Pw,&Pd,&Pl);
+			scanf("%Lf%Lf%Lf%Lf%Lf%Lf%Lf",&Ps,&Pr,&Pi,&Pu,&Pw,&Pd,&Pl);
 			i=Pi*1000+0.5;
 			Q.push(mp(mp(0,0),i)),dyn[0][0][i]=1,vis[0][0][i]=t;
 			ans=0;

@@ -4,8 +4,8 @@ double dp[2][110][1010];
 
 int main()
 {
-    freopen("tennison.txt","r",stdin);
-    freopen("tennison_out.txt","w",stdout);
+    //freopen("tennison.txt","r",stdin);
+    //freopen("tennison_out.txt","w",stdout);
     int T;
     scanf("%d",&T);
     for (int cas=1; cas<=T; cas++)

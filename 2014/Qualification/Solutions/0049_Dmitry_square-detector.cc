@@ -28,8 +28,8 @@ string s[30];
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    //freopen("input.txt", "r", stdin);
+    //freopen("output.txt", "w", stdout);
     int tn;
     cin >> tn;
     for (int tc = 0; tc < tn; tc++)

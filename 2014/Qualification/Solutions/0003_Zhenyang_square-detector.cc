@@ -67,7 +67,7 @@ void dfs(int x,int y)
 }
 int main()
 {
-	freopen("C:\\competition\\fbhc\\a.out","w",stdout);
+	//freopen("C:\\competition\\fbhc\\a.out","w",stdout);
 	int i,j,k,cas,cc=0;
 	scanf("%d",&cas);
 	while (cas--)

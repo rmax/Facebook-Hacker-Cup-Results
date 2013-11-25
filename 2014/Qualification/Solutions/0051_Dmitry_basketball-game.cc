@@ -46,8 +46,8 @@ using namespace std;
 void prepare (string s)
 {
 #ifdef _DEBUG
-	freopen ("input.txt", "r", stdin);
-	freopen ("output.txt", "w", stdout);
+	//freopen ("input.txt", "r", stdin);
+	//freopen ("output.txt", "w", stdout);
 #else
 	if (s.length() != 0)
 	{

@@ -70,8 +70,8 @@ double dp(int KL,int KW,int PROB)
 
 int main()
 {
-	freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 	int TC;
 	cin >> TC;
 	for(int tc = 1; tc<=TC ; ++tc)

@@ -62,7 +62,8 @@ int main()
 	int T;
 	cin >> T;
 
-	FILE *fp = fopen("_google_code_jam_output.txt","w");
+	//FILE *fp = fopen("_google_code_jam_output.txt","w");
+	FILE *fp = stdout;
 
 	for (int testcase = 0; testcase < T; testcase++)
 	{
@@ -133,7 +134,8 @@ int main()
 	int T;
 	cin >> T;
 
-	FILE *fp = fopen("_google_code_jam_output.txt","w");
+	//FILE *fp = fopen("_google_code_jam_output.txt","w");
+	FILE *fp = stdout;
 
 	for (int testcase = 0; testcase < T; testcase++)
 	{

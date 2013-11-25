@@ -71,8 +71,8 @@ double find(int k,int k2,int Pi){
 int main(){
 	//time_t start,end;
 	//time(&start);
-	freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 	scanf("%d",&t);
 	for(int z=1;z<=t;z++){
 		scanf("%d %lf %lf %lf %lf %lf %lf %lf",&n,&ps,&pr,&pi,&pu,&pw,&pd,&pl);

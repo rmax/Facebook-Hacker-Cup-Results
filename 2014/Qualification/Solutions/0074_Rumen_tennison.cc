@@ -71,7 +71,7 @@ int main() {
 		ans = (int)(ans + 0.5 + 1e-9);
 		ans /= 1000000;
 		 */
-		printf ("%.10lf\n", ans);
+		//printf ("%.10lf\n", ans);
 		printf ("Case #%d: %.6lf\n", q, ans);
 	}
 	

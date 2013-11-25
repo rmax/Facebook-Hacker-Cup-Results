@@ -84,9 +84,10 @@ bool Read(int &x)
 
 int main()
 {
-		if (DEBUG)
-			freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+		if (DEBUG) {
+			//freopen("in.txt","r",stdin);
+      //freopen("out.txt","w",stdout);
+    }
 	int T,tt,N,M,K,S;
 	int i,j,m,m2;
 	pair <PR,string> P[30];

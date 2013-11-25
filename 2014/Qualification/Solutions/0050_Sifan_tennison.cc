@@ -41,7 +41,7 @@ void read(int &result) {
 }
 
 int main() {
-	freopen("C.in", "r", stdin);
+	//freopen("C.in", "r", stdin);
 	int test;
 	scanf("%d", &test);
 	for (counter = 1; counter <= test; ++ counter) {

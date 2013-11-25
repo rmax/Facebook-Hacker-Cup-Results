@@ -25,7 +25,7 @@ db const eps = 1e-12;
 db dp[2][N][N][N][3];
 db sp[3];
 int main() {
-	freopen("C_ans.txt", "w", stdout);
+	//freopen("C_ans.txt", "w", stdout);
 	db ps, pr, pi, pu, pw, pd, pl;
 	int T, k, ca = 1; scanf("%d", &T); 
 	while (T--) {

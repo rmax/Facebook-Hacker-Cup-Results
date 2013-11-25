@@ -6,8 +6,8 @@ int mn(int a, int b){ return a < b ? a : b; }
 int mx(int a, int b){ return a < b ? b : a; }
 int main()
 {
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
+	//freopen("input.txt", "r", stdin);
+	//freopen("output.txt", "w", stdout);
 	scanf("%d", &TC);
 	for (T = 1; T <= TC; T++){
 		printf("Case #%d: ", T);

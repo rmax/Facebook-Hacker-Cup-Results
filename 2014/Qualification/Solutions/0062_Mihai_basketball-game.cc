@@ -1,4 +1,4 @@
-#include <fstream>
+#include <iostream>
 #include <string>
 #include <algorithm>
 
@@ -9,8 +9,6 @@ struct Player {
     int shotPercentage, height, minutesPlayed, draftNumber;
 };
 
-ifstream fi("fb2.in");
-ofstream fo("fb2.out");
 int t, n, m, p, n1, n2;
 Player pl[30], team1[15], team2[15], onField[30];
 
@@ -32,10 +30,10 @@ bool cmpName(const Player &pl1, const Player &pl2) {
 
 void solveTest(int testNumber) {
     Player tmp;
-    fi >> n >> m >> p;
+    cin >> n >> m >> p;
     for (int i = 0; i < n; i++) {
         pl[i].minutesPlayed = 0;
-        fi >> pl[i].name >> pl[i].shotPercentage >> pl[i].height;
+        cin >> pl[i].name >> pl[i].shotPercentage >> pl[i].height;
     }
     sort(pl, pl + n, cmpRate);
     n1 = n2 = 0;
@@ -66,14 +64,14 @@ void solveTest(int testNumber) {
         }
     }
     sort(onField, onField + 2 * p, cmpName);
-    fo << "Case #" << testNumber << ": ";
+    cout << "Case #" << testNumber << ": ";
     for (int i = 0; i < 2 * p; ++i)
-        fo << onField[i].name << ' ';
-    fo << endl;
+        cout << onField[i].name << ' ';
+    cout << endl;
 }
 
 int main() {
-    fi >> t;
+    cin >> t;
     for (int i = 1; i <= t; ++i) {
         solveTest(i);
     }

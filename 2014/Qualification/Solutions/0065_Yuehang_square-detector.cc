@@ -13,8 +13,8 @@ int ck(int x1,int y1,int x2,int y2)
 
 int main()
 {
-    freopen("square_detector.txt","r",stdin);
-    freopen("square_detector_out.txt","w",stdout);
+    //freopen("square_detector.txt","r",stdin);
+    //freopen("square_detector_out.txt","w",stdout);
     int T;
     scanf("%d",&T);
     for (int cas=1;cas<=T;cas++)

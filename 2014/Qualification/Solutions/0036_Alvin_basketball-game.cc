@@ -24,8 +24,8 @@ vector<string> ans;
 bool play[2][111];
 char in[100];
 int main(){
-	freopen("in.txt","r",stdin);
-	freopen("out.txt","w",stdout);
+	//freopen("in.txt","r",stdin);
+	//freopen("out.txt","w",stdout);
 	scanf("%d",&t);
 	for(int z=1;z<=t;z++){
 		P[0].clear();

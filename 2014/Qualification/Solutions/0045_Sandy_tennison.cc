@@ -77,8 +77,8 @@ double getDp(int win,int lose,int sunny)
 
 int main()
 {
-	freopen("tennison.txt","r",stdin);
-	freopen("tennison_out.txt","w",stdout);
+	//freopen("tennison.txt","r",stdin);
+	//freopen("tennison_out.txt","w",stdout);
 	
 	scanf("%d",&t);
 	

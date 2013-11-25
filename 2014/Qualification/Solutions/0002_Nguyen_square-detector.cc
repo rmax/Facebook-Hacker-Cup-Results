@@ -15,8 +15,8 @@ int checkSquare(int x, int y, int k)
 
 int main()
 {
-	freopen("a.in", "r", stdin);
-	freopen("a.out", "w", stdout);
+	//freopen("a.in", "r", stdin);
+	//freopen("a.out", "w", stdout);
 	
 	int test;
 	cin >> test;
@@ -46,6 +46,6 @@ int main()
 			}
 		else ans = 0;
 				
-		cout << "Case " << idTest << ": " << (ans ? "YES" : "NO") << endl;
+		cout << "Case #" << idTest << ": " << (ans ? "YES" : "NO") << endl;
 	}
 }

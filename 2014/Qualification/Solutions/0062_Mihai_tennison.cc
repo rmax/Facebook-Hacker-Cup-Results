@@ -1,11 +1,9 @@
-#include <fstream>
 #include <iomanip>
+#include <iostream>
 #include <map>
 
 using namespace std;
 
-ifstream fi("fb3.in");
-ofstream fo("fb3.out");
 int t, k;
 double ps, pr, pi, pu, pw, pd, pl;
 map<double, double> m[101][101];
@@ -43,7 +41,7 @@ void addProb(int wins, int loses, double pSun, double pAdd) {
 void solveTest(int testNumber) {
     double result = 0.0, d, p;
     int wins, loses;
-    fi >> k >> ps >> pr >> pi >> pu >> pw >> pd >> pl;
+    cin >> k >> ps >> pr >> pi >> pu >> pw >> pd >> pl;
     init();
     for (int games = 1; games < 2*k; ++games) {
         if (games < k) wins = 0;
@@ -75,12 +73,12 @@ void solveTest(int testNumber) {
         for (map<double, double>::iterator it = m[k][loses].begin(); it != m[k][loses].end(); ++it)
             result += it->second;
     }
-    fo << "Case #" << testNumber << ": " << setprecision(6) << result << endl;
+    cout << "Case #" << testNumber << ": " << result << endl;
 }
 
 int main() {
-    fo << fixed;
-    fi >> t;
+    cout << fixed << setprecision(6);
+    cin >> t;
     for (int i = 1; i <= t; ++i) solveTest(i);
     return 0;
 }

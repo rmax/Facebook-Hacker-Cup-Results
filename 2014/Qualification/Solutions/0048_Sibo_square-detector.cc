@@ -4,8 +4,8 @@
 using namespace std;
 
 int main() {
-	freopen("square_detector.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
+	//freopen("square_detector.txt", "r", stdin);
+	//freopen("out.txt", "w", stdout);
 	
 	int T;
 	cin >> T;

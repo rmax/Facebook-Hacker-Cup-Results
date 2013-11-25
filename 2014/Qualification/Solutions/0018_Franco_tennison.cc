@@ -24,7 +24,7 @@ struct stateGivenResult {
 	bool win;
 	stateGivenResult(double s, bool w) {
 		if (!(0 <= sunnyProb && sunnyProb <= 1)) {
-			cout << sunnyProb << endl;
+			//cout << sunnyProb << endl;
 		}
 		sunnyProb = s; win = w;}
 	stateGivenResult(){}

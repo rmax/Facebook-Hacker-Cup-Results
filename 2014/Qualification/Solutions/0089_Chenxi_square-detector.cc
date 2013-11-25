@@ -3,8 +3,8 @@
 using namespace std;
 string s[30];
 int main(){
-	freopen("in.txt", "r", stdin);
-	freopen("out.txt", "w", stdout);
+	//freopen("in.txt", "r", stdin);
+	//freopen("out.txt", "w", stdout);
 	int t, tt;
 	cin>>tt;
 	for (t = 0; t < tt; ++t){
